@@ -5,8 +5,9 @@ Projeto baseado no canal 'Monolito PHP'
 **HTML |  CSS  | PHP**
 
 - parte 1 (completa)
-- parte 2 (-)
-- parte 3 (-)
-- parte 4 (-)
+- parte 2 (completa)
+- parte 3 (completa)
+- parte 4 (completa)
 - parte 5 (-)
+- parte 6 (-)
 <hr>
