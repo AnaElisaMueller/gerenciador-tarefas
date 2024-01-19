@@ -8,6 +8,6 @@ Projeto baseado no canal 'Monolito PHP'
 - parte 2 (completa)
 - parte 3 (completa)
 - parte 4 (completa)
-- parte 5 (-)
+- parte 5 (completa)
 - parte 6 (-)
 <hr>
