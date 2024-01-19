@@ -11,3 +11,13 @@ Projeto baseado no canal 'Monolito PHP'
 - parte 5 (completa)
 - parte 6 (-)
 <hr>
+
+phpMyadmin:
+
+create table tasks (
+id int not null AUTO_INCREMENT PRIMARY KEY,
+    task_name varchar(190),
+    task_description varchar (250),
+    task_image varchar(50),
+    task_date date
+)
