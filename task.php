@@ -1,5 +1,8 @@
 <?php
 
+require __DIR__ . '/connect.php';
+
+
 session_start();
 
 if ( isset ($_POST['task_name'])){
@@ -17,23 +20,23 @@ if ( isset ($_POST['task_name'])){
         }
 
 
-        $data = [
-            'task_name' => $_POST['task_name'],
-            'task_description' => $_POST['task_description'],
-            'task_date' => $_POST['task_date'],
-            'task_image' => $file_name
-            ];
 
+            $stmt = $conn->prepare(' INSERT INTO taks ( task_name, task_description, task_image, task_date) 
+            VALUES (:name, :description. :image, :date)');
+            $stmt->bindParam('name', $_POST['task_name']);
+            $stmt->bindParam('description', $_POST['task_description']);
+            $stmt->bindParam('image', $file_name);
+            $stmt->bindParam('date', $_POST['task_date']);
 
+if ($stmt->execute()){
+ $_SESSION['sucess'] = "Dados cadastrados.";
+  header('location:index.php');
 
-
-    array_push($_SESSION['tasks'], $data );
-    unset($_POST['task_name']);
-    unset($_POST['task_description']); 
-    unset($_POST['task_date']);
-
-
+} else{
+    $_SESSION['error'] = "Dados não cadastrados.";
     header('location:index.php');
+}
+            
 
     }else{
     $_SESSION['message'] = "O campo nome da tarefa não pode ser vazio!";
