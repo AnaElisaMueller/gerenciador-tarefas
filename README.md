@@ -5,6 +5,7 @@
 Projeto baseado no canal 'Monolito PHP'.
 
 **HTML |  CSS  | PHP**
+<hr>
 
 - parte 1 (completa)
 - parte 2 (completa)
@@ -14,15 +15,15 @@ Projeto baseado no canal 'Monolito PHP'.
 - parte 5 (completa)
 - parte 6(1)(completa)
 - parte 6(2)(completa)
-<hr>
+
 <hr>
 
 phpMyadmin:
 
-create table tasks (
-id int not null AUTO_INCREMENT PRIMARY KEY,
-    task_name varchar(190),
-    task_description varchar (250),
-    task_image varchar(50),
-    task_date date
-)
+create table tasks ( <br>
+id int not null AUTO_INCREMENT PRIMARY KEY,  <br>
+    task_name varchar(190),  <br>
+    task_description varchar (250),  <br>
+    task_image varchar(50),  <br>
+    task_date date  <br>
+)  <br>
