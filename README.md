@@ -1,8 +1,8 @@
 
 # gerenciador-tarefas
-# gerenciador-tarefas
 
-Projeto baseado no canal 'Monolito PHP'
+
+Projeto baseado no canal 'Monolito PHP'.
 
 **HTML |  CSS  | PHP**
 
@@ -13,7 +13,7 @@ Projeto baseado no canal 'Monolito PHP'
 - parte 5 (completa)
 - parte 5 (completa)
 - parte 6(1)(completa)
-- parte 6(2)(-)
+- parte 6(2)(completa)
 <hr>
 <hr>
 
